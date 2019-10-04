@@ -1,2 +1,4 @@
-*.indd
+
+#Ignore all Creative Suite files
 *.ai
+*.indd
