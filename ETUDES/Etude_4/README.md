@@ -7,3 +7,6 @@ https://q_dork.itch.io/and-i-made-sure-to-hold-your-head-sideways
 
 The game is about taking care of an intoxicated friend.
 We chose to create a pillow which one could cradle and comfort as a representation of the actions taking place in the game. By tilting the pillow left and right and up and down once can choose which arrow key they would like to press. To press on a key, the user has to squeeze the pillow (give it a good hug!). When you release the pillow the arrow key is released.
+
+
+The sensors we used were the accelerometer and the pressure sensor. We tried to create our own pressure sensor, as seen in the images. However after much trial and error, it did not work and we resorted to using an existing pressure sensor. 
