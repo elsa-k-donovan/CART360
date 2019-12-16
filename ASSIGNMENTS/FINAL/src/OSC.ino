@@ -51,7 +51,11 @@ void setup()
 void loop()
 {
     int valA0 = analogRead(A0);
-    // int val2 = analogRead(A0);
+    int valA1 = analogRead(A1);
+    int valA2 = analogRead(A2);
+    int valA3 = analogRead(A3);
+    int valA4 = analogRead(A4);
+
     //int testVal = 255;
     // Serial.println(WiFi.localIP());
 
@@ -61,13 +65,38 @@ void loop()
     //outMessage.addString("test");
     //outMessage.addFloat(-3.14);
     outMessage.addInt(valA0);
-    //  outMessage.addInt(val2);
+    outMessage.addInt(valA1);
+    outMessage.addInt(valA2);
+    outMessage.addInt(valA3);
+    outMessage.addInt(valA4);
+
     outMessage.send(udp,outIp,outPort);
+
+    Serial.println(" ");
 
     Serial.print("val A0: ");
     Serial.println(valA0);
-    // Serial.println("val2: ");
-    // Serial.println(val2);
+
+    Serial.println(" ");
+
+    Serial.print("val A1: ");
+    Serial.println(valA1);
+
+    Serial.println(" ");
+
+    Serial.print("val A2: ");
+    Serial.println(valA2);
+
+    Serial.println(" ");
+
+    Serial.print("val A3: ");
+    Serial.println(valA3);
+
+    Serial.println(" ");
+
+    Serial.print("val A4: ");
+    Serial.println(valA4);
+
 
    digitalWrite(7, HIGH);
    delay(100);
