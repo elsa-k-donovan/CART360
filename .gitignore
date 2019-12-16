@@ -4,5 +4,5 @@
 *.indd
 *.toe
 
-#Ignore all TouchDesigner files except photonFinal.toe
 !ASSIGNMENTS/*.toe
+!photonFinal.toe
