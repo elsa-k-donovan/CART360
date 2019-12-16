@@ -4,5 +4,4 @@
 *.indd
 *.toe
 
-!ASSIGNMENTS/*.toe
 !photonFinal.toe
